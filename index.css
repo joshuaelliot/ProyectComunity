@@ -60,7 +60,7 @@ li > a{
   
 }
 li:hover{
-    border-bottom:solid 2px var(--color-destacar);
+    border-bottom:solid 5px var(--color-destacar);
 
 }
 .description{
