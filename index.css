@@ -3,6 +3,8 @@
 --color-fondo-principal:#fffffe;
 --color-titular-principal:#00214d;
 --color-parrafo-principal:#1b2d45;
+--color-boton-principal:#00ebc7;
+--color-destacar:#00ebc7;
 }
 *{
     margin:0;
@@ -45,15 +47,21 @@ ul{
 }
 li{
     width:100px;
+    height:30px;
     margin-right:20px;
     text-align: center;
-
 }
 li > a{
    text-decoration: none;
     font-size: 20px;
     font-weight:600;
     color:var(--color-titular-principal);
+    margin-bottom: 10px;
+  
+}
+li:hover{
+    border-bottom:solid 2px var(--color-destacar);
+
 }
 .description{
     width:100%;
