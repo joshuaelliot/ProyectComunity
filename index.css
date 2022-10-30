@@ -5,6 +5,8 @@
 --color-parrafo-principal:#1b2d45;
 --color-boton-principal:#00ebc7;
 --color-destacar:#00ebc7;
+--color-terciario:#fde24f;
+--color-morado-text:#451F78;
 }
 *{
     margin:0;
@@ -55,13 +57,13 @@ li > a{
    text-decoration: none;
     font-size: 20px;
     font-weight:600;
-    color:var(--color-titular-principal);
+    color:var(--color-morado-text);
     margin-bottom: 10px;
   
 }
 li:hover{
     border-bottom: solid 5px;
-    border-color: var(--color-destacar);
+    border-color: var(--color-terciario);
 
 }
 .description{
@@ -85,7 +87,7 @@ li:hover{
     height: 30%;
     text-transform:capitalize;
     text-align: center;
-    color:var(--color-titular-principal);
+    color:#451F78;
     word-spacing: 0.2rem;
 }
 .description-breve > p{
@@ -111,7 +113,7 @@ li:hover{
     display:flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--color-titular-principal);
+    background-color: #451F78;
 }
 .description-sobreNosotros{
     width:750px;
@@ -127,32 +129,41 @@ li:hover{
     margin-bottom: 30px;
 }
 .description-sobreNosotros > p{
-    color:var(--color-destacar);
+    color:aliceblue;
     text-align: justify;
     font-size: 1.5rem;
     font-weight: 400;
 }
+.seccion-proyectos{
+    width:100%;
+    height:auto;
+    background-color: blueviolet;
+    padding-bottom: 50px;
+}
  .subtitulo{
+     display: block;
     width: 100%;
-    height:20vh;
+    height:160px;
     padding-top: 50px;
+    margin-bottom: 80px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: var(--color-titular-principal);
+    color:#451F78 ;
+   background-color: aliceblue;
 }
 .proyectos-contenedor{
     width:100%;
-    height:auto;
-    padding-top: 40px;
+    height:100%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-auto-rows: 1fr;
-    row-gap: 2rem;
+    row-gap: 3.5rem;
     justify-items: center;
 }
 .card {
-    width:300px;
-    height:400px;
+    width:250px;
+    height:320px;
+    background-color: #fffffe;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -171,12 +182,39 @@ height:60%;
     border-top-right-radius: 10px;
 }
 .card__content {
+    padding-top: 20px;
    text-align: center;
    font-family: 'Montserrat', sans-serif;
 }
 .card__content > h4{
+    padding-bottom: 10px;
     font-weight: 700;
 }
 .card__content > p{
     font-weight: 400;
+}
+.boton-direcionador{
+    width:100%;
+    height:120px;
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.boton-direcionador > button{
+    width:auto;
+    height:auto;
+    background-color: var(--color-terciario);
+    color:var(--color-morado-text);
+    padding:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: darkorange;
+}
+footer{
+    width:100%;
+    height:400px;
+    background-color: #00ebc7;
 }
