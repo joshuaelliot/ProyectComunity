@@ -111,7 +111,6 @@ li:hover{
     display:flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    border:solid 1px hotpink;
     background-color: var(--color-titular-principal);
 }
 .description-sobreNosotros{
@@ -135,7 +134,8 @@ li:hover{
 }
  .subtitulo{
     width: 100%;
-    padding-top: 20px;
+    height:20vh;
+    padding-top: 50px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: var(--color-titular-principal);
@@ -155,8 +155,8 @@ li:hover{
     height:400px;
     display: flex;
     flex-direction: column;
-    border:solid 1px blue;
     border-radius: 10px;
+    box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.75);
 }
 
 .card__cover{
