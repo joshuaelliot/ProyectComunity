@@ -20,3 +20,5 @@ function cambioColor(){
    console.log(descripcion);
 }
 agregarEvento(cardContentPrincipal)
+
+console.log("estamos fusionandonos");
