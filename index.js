@@ -21,4 +21,4 @@ function cambioColor(){
 }
 agregarEvento(cardContentPrincipal)
 
-console.log("estamos fusionandonos");
+console.log("estamos en github pages");
